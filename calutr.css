@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: #87ceea;
+    padding: 84px;
+    border-radius: 15px;
+}
+.box{
+    width: 450px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+}
+input{
+    height: 73px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-weight: 500;
+    font-size: xx-large;
+}
+input::placeholder{
+    font-size: large;
+}
+button{
+    padding: 7px 27px ; 
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: large;
+}
+button.nums{
+    background-color: #c7c7c7;
+}
+button.operation{
+    background-color: #808080;
+    color: white;
+}
+button.clearr{
+    background-color: red;
+    color: white;
+}
+button.equal{
+    background-color: #0de35f;
+    color: white;
+}
